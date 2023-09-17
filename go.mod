@@ -5,7 +5,7 @@ go 1.21.0
 require (
 	cloud.google.com/go/firestore v1.12.0
 	firebase.google.com/go/v4 v4.12.0
-	github.com/sneat-co/sneat-go-core v0.3.0
+	github.com/sneat-co/sneat-go-core v0.6.0
 )
 
 require (
