@@ -5,7 +5,7 @@ go 1.21.0
 require (
 	cloud.google.com/go/firestore v1.12.0
 	firebase.google.com/go/v4 v4.12.0
-	github.com/sneat-co/sneat-go-core v0.6.0
+	github.com/sneat-co/sneat-go-core v0.8.3
 )
 
 require (
@@ -17,7 +17,7 @@ require (
 	cloud.google.com/go/storage v1.30.1 // indirect
 	github.com/MicahParks/keyfunc v1.9.0 // indirect
 	github.com/alexsergivan/transliterator v1.0.0 // indirect
-	github.com/crediterra/money v0.2.0 // indirect
+	github.com/crediterra/money v0.2.1 // indirect
 	github.com/dal-go/dalgo v0.10.2 // indirect
 	github.com/golang-jwt/jwt/v4 v4.5.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
