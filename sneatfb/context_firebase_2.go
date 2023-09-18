@@ -40,12 +40,12 @@ var getSneatAuthTokenFromHttpRequest = func(r *http.Request) (token *sneatauth.T
 }
 
 // newAuthContext creates new authentication context
-var newAuthContext = func(r *http.Request) (facade.AuthContext, error) {
-	fbIDToken := func() (string, error) {
-		return getBearerToken(r.Header.Get(authorizationHeaderName))
-	}
-	return NewFirebaseAuthContext(fbIDToken), nil
-}
+//var newAuthContext = func(r *http.Request) (facade.AuthContext, error) {
+//	fbIDToken := func() (string, error) {
+//		return getBearerToken(r.Header.Get(authorizationHeaderName))
+//	}
+//	return NewFirebaseAuthContext(fbIDToken), nil
+//}
 
 func getBearerToken(authorizationHeader string) (token string, err error) {
 	if authorizationHeader == "" {
