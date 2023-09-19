@@ -36,8 +36,10 @@ func getSneatAuthTokenFromHttpRequest(r *http.Request) (token *sneatauth.Token, 
 		if err != nil {
 			return nil, fmt.Errorf("failed to get Firebase auth toke: %w", err)
 		}
-		token := sneatauth.Token{UID: fbToken.UID, Original: fbToken}
-		sneatauth.NewContextWithAuthToken(ctx, &token)
+		token = &sneatauth.Token{
+			UID:      fbToken.UID,
+			Original: fbToken,
+		}
 	}
 	return token, err
 }
