@@ -14,8 +14,11 @@ import (
 const authorizationHeaderName = "Authorization"
 const bearerPrefix = "Bearer"
 
-// getSneatAuthTokenFromHttpRequest creates a context with a Firebase ContactID token
-var getSneatAuthTokenFromHttpRequest = func(r *http.Request) (token *sneatauth.Token, err error) {
+// GetSneatAuthTokenFromHttpRequest creates a context with a Firebase ContactID token
+func GetSneatAuthTokenFromHttpRequest(r *http.Request) (token *sneatauth.Token, err error) {
+	if r == nil {
+		panic("request is nil")
+	}
 	ctx := r.Context()
 	if ctx == nil {
 		return nil, errors.New("request returned nil context")
