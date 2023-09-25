@@ -4,7 +4,7 @@ go 1.21.0
 
 require (
 	cloud.google.com/go/firestore v1.13.0
-	firebase.google.com/go/v4 v4.12.0
+	firebase.google.com/go/v4 v4.12.1
 	github.com/dal-go/dalgo v0.12.0
 	github.com/dal-go/dalgo2firestore v0.1.28
 	github.com/sneat-co/sneat-go-core v0.9.2
