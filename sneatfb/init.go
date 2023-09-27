@@ -7,6 +7,7 @@ import (
 	"github.com/dal-go/dalgo2firestore"
 	"github.com/sneat-co/sneat-go-core/apicore"
 	"github.com/sneat-co/sneat-go-core/facade"
+	"github.com/sneat-co/sneat-go-core/sneatauth"
 )
 
 func InitFirebaseForSneat(projectID, dbName string) {
@@ -25,4 +26,5 @@ func InitFirebaseForSneat(projectID, dbName string) {
 		}
 		return dalgo2firestore.NewDatabase(dbName, client)
 	}
+	sneatauth.GetUserInfo = GetUserInfo
 }
