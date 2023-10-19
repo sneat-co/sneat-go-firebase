@@ -5,10 +5,10 @@ go 1.21.0
 //replace github.com/sneat-co/sneat-go-core => ../sneat-go-core
 
 require (
-	cloud.google.com/go/firestore v1.13.0
+	cloud.google.com/go/firestore v1.14.0
 	firebase.google.com/go/v4 v4.12.1
 	github.com/dal-go/dalgo v0.12.0
-	github.com/dal-go/dalgo2firestore v0.1.32
+	github.com/dal-go/dalgo2firestore v0.1.33
 	github.com/sneat-co/sneat-go-core v0.12.1
 	github.com/stretchr/testify v1.8.4
 )
@@ -53,7 +53,7 @@ require (
 	google.golang.org/genproto v0.0.0-20231002182017-d307bd883b97 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20231002182017-d307bd883b97 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20231009173412-8bfb1ae86b6c // indirect
-	google.golang.org/grpc v1.58.3 // indirect
+	google.golang.org/grpc v1.59.0 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
