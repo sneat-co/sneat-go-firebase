@@ -9,7 +9,7 @@ require (
 	firebase.google.com/go/v4 v4.12.1
 	github.com/dal-go/dalgo v0.12.0
 	github.com/dal-go/dalgo2firestore v0.1.36
-	github.com/sneat-co/sneat-go-core v0.16.1
+	github.com/sneat-co/sneat-go-core v0.18.0
 	github.com/stretchr/testify v1.8.4
 )
 
@@ -37,7 +37,7 @@ require (
 	github.com/strongo/decimal v0.0.1 // indirect
 	github.com/strongo/random v0.0.1 // indirect
 	github.com/strongo/slice v0.1.4 // indirect
-	github.com/strongo/validation v0.0.5 // indirect
+	github.com/strongo/validation v0.0.6 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	golang.org/x/crypto v0.14.0 // indirect
 	golang.org/x/net v0.17.0 // indirect
