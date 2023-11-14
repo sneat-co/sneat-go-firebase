@@ -55,6 +55,8 @@ github.com/dal-go/dalgo2firestore v0.1.35 h1:xjXt+ngDUoxm7IfiklM3DK7pjcACR/dyxz5
 github.com/dal-go/dalgo2firestore v0.1.35/go.mod h1:Fg6sWTp5pKpVNuQt6y2kP3m7GuPi9q3riTXFO9/YtPw=
 github.com/dal-go/dalgo2firestore v0.1.36 h1:dAY4CXj32OiRJ78oVWYpldzcj8ciIYsUo9vnujw4fEU=
 github.com/dal-go/dalgo2firestore v0.1.36/go.mod h1:H49S2Ot2tLgG8qxVa0OYXx7fFO7B9yzYoG2e+7QHfFI=
+github.com/dal-go/dalgo2firestore v0.1.37 h1:W+2yV0V+rB/XOvhGqde3aXcpH5180bU3RskHbegf94s=
+github.com/dal-go/dalgo2firestore v0.1.37/go.mod h1:FRgul51cQruFdlwIVUb59nZRUmt20t9LnS3br9heMwI=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
