@@ -1,6 +1,6 @@
 module github.com/sneat-co/sneat-go-firebase
 
-go 1.21.4
+go 1.21.5
 
 //replace github.com/sneat-co/sneat-go-core => ../sneat-go-core
 
@@ -8,7 +8,7 @@ require (
 	cloud.google.com/go/firestore v1.14.0
 	firebase.google.com/go/v4 v4.13.0
 	github.com/dal-go/dalgo v0.12.0
-	github.com/dal-go/dalgo2firestore v0.1.39
+	github.com/dal-go/dalgo2firestore v0.1.40
 	github.com/sneat-co/sneat-go-core v0.19.1
 	github.com/stretchr/testify v1.8.4
 )
@@ -48,7 +48,7 @@ require (
 	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/time v0.5.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
-	google.golang.org/api v0.152.0 // indirect
+	google.golang.org/api v0.153.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/appengine/v2 v2.0.2 // indirect
 	google.golang.org/genproto v0.0.0-20231106174013-bbf56f31fb17 // indirect
