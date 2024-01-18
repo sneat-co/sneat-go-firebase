@@ -23,6 +23,21 @@ func FirebaseTokenFromContext(ctx context.Context) *auth.Token {
 	return v.(*auth.Token)
 }
 
+func verifyIDToken(ctx context.Context, authClient *auth.Client, idToken string) (token *auth.Token, err error) {
+	defer func() {
+		if fail := recover(); fail != nil {
+			err = fmt.Errorf("%w: %v", facade.ErrUnauthorized, fail)
+		}
+	}()
+	token, err = authClient.VerifyIDToken(ctx, idToken)
+	return
+}
+
+// NewContextWithFirebaseToken creates a new context with a Firebase token
+func NewContextWithFirebaseToken(ctx context.Context, token *auth.Token) context.Context {
+	return context.WithValue(ctx, &firebaseTokenContextKey, token)
+}
+
 // NewFirebaseAuthToken creates Firebase authentication token
 var NewFirebaseAuthToken = newFirebaseAuthToken
 

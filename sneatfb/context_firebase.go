@@ -1,23 +1,63 @@
 package sneatfb
 
 import (
-	"context"
+	"errors"
 	"firebase.google.com/go/v4/auth"
 	"fmt"
 	"github.com/sneat-co/sneat-go-core/facade"
+	"github.com/sneat-co/sneat-go-core/httpserver"
+	"github.com/sneat-co/sneat-go-core/sneatauth"
+	"net/http"
+	"strings"
 )
 
-func verifyIDToken(ctx context.Context, authClient *auth.Client, idToken string) (token *auth.Token, err error) {
-	defer func() {
-		if fail := recover(); fail != nil {
-			err = fmt.Errorf("%w: %v", facade.ErrUnauthorized, fail)
+const authorizationHeaderName = "Authorization"
+const bearerPrefix = "Bearer"
+
+// getSneatAuthTokenFromHttpRequest creates a context with a Firebase ContactID token
+func getSneatAuthTokenFromHttpRequest(r *http.Request) (token *sneatauth.Token, err error) {
+	if r == nil {
+		panic("request is nil")
+	}
+	ctx := r.Context()
+	if ctx == nil {
+		return nil, errors.New("request returned nil context")
+	}
+	authHeader := r.Header.Get(authorizationHeaderName)
+	if authHeader != "" {
+		bearerToken, err := getBearerToken(authHeader)
+		if err != nil {
+			return nil, fmt.Errorf("failed to get bearer token from authorization header: %w", err)
 		}
-	}()
-	token, err = authClient.VerifyIDToken(ctx, idToken)
-	return
+		var fbToken *auth.Token
+		fbToken, err = NewFirebaseAuthToken(ctx, func() (string, error) {
+			return bearerToken, nil
+		}, false)
+		if err != nil {
+			return nil, fmt.Errorf("failed to get Firebase auth toke: %w", err)
+		}
+		token = &sneatauth.Token{
+			UID:      fbToken.UID,
+			Original: fbToken,
+		}
+	}
+	return token, err
 }
 
-// NewContextWithFirebaseToken creates a new cotext with a Firebase token
-func NewContextWithFirebaseToken(ctx context.Context, token *auth.Token) context.Context {
-	return context.WithValue(ctx, &firebaseTokenContextKey, token)
+// newAuthContext creates new authentication context
+//var newAuthContext = func(r *http.Request) (facade.AuthContext, error) {
+//	fbIDToken := func() (string, error) {
+//		return getBearerToken(r.Header.Get(authorizationHeaderName))
+//	}
+//	return NewFirebaseAuthContext(fbIDToken), nil
+//}
+
+func getBearerToken(authorizationHeader string) (token string, err error) {
+	if authorizationHeader == "" {
+		return "", facade.ErrNoAuthHeader
+	}
+	if !strings.HasPrefix(authorizationHeader, bearerPrefix) {
+		return "", httpserver.ErrNotABearerToken
+	}
+	return authorizationHeader[len(bearerPrefix)+1:], nil
 }
