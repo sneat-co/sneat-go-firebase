@@ -85,6 +85,8 @@ github.com/dal-go/dalgo2firestore v0.1.44 h1:6xRcyakrUhXfS+0qkkUMKxqaDSXpUMBMU7v
 github.com/dal-go/dalgo2firestore v0.1.44/go.mod h1:9NMT0J7Uu74V7RUgUFEziyyDLiVmdTIH37oEG0h6btc=
 github.com/dal-go/dalgo2firestore v0.1.45 h1:tGh7l2JSAsXSkM54R/Y3R0/mqairGeJxnUZNvSAV2k8=
 github.com/dal-go/dalgo2firestore v0.1.45/go.mod h1:NlaPettV+QMCRDbCqBnhEpB/z6t5T0pLW7e+rh7ALxA=
+github.com/dal-go/dalgo2firestore v0.1.46 h1:n1ocTeLLLzLb9qU+GE57dmYXdrc3cb+aT3oOS4nglME=
+github.com/dal-go/dalgo2firestore v0.1.46/go.mod h1:8jvRAT90akfNuGJM9xt+eicbxsZFVXpjRDgZIqt0rTI=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
@@ -429,6 +431,8 @@ google.golang.org/grpc v1.60.0 h1:6FQAR0kM31P6MRdeluor2w2gPaS4SVNrD/DNTxrQ15k=
 google.golang.org/grpc v1.60.0/go.mod h1:OlCHIeLYqSSsLi6i49B5QGdzaMZK9+M7LXN2FKz4eGM=
 google.golang.org/grpc v1.60.1 h1:26+wFr+cNqSGFcOXcabYC0lUVJVRa2Sb2ortSK7VrEU=
 google.golang.org/grpc v1.60.1/go.mod h1:OlCHIeLYqSSsLi6i49B5QGdzaMZK9+M7LXN2FKz4eGM=
+google.golang.org/grpc v1.61.0 h1:TOvOcuXn30kRao+gfcvsebNEa5iZIiLkisYEkf7R7o0=
+google.golang.org/grpc v1.61.0/go.mod h1:VUbo7IFqmF1QtCAstipjG0GIoq49KvMe9+h1jFLBNJs=
 google.golang.org/protobuf v0.0.0-20200109180630-ec00e32a8dfd/go.mod h1:DFci5gLYBciE7Vtevhsrf46CRTquxDuWsQurQQe4oz8=
 google.golang.org/protobuf v0.0.0-20200221191635-4d8936d0db64/go.mod h1:kwYJMbMJ01Woi6D6+Kah6886xMZcty6N08ah7+eCXa0=
 google.golang.org/protobuf v0.0.0-20200228230310-ab0ca4ff8a60/go.mod h1:cfTl7dwQJ+fmap5saPgwCLgHXTUD7jkjRqWcaiX5VyM=
