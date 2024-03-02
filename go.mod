@@ -7,10 +7,10 @@ go 1.22.0
 require (
 	cloud.google.com/go/firestore v1.14.0
 	firebase.google.com/go/v4 v4.13.0
-	github.com/dal-go/dalgo v0.12.0
+	github.com/dal-go/dalgo v0.12.1
 	github.com/dal-go/dalgo2firestore v0.1.53
-	github.com/sneat-co/sneat-go-core v0.23.0
-	github.com/stretchr/testify v1.8.4
+	github.com/sneat-co/sneat-go-core v0.23.1
+	github.com/stretchr/testify v1.9.0
 )
 
 require (
