@@ -113,6 +113,8 @@ github.com/dal-go/dalgo2firestore v0.1.52 h1:KL/vRDFovWUS8P7SWQgsbjOFJomv9Zipw4L
 github.com/dal-go/dalgo2firestore v0.1.52/go.mod h1:CfEheApW2Pr1Ynomf4QVPHaFe+DmXAct25NTD+4tDro=
 github.com/dal-go/dalgo2firestore v0.1.53 h1:TwoYWdMVpMwmiDEG+pLAi2TQrcYB0pHexs93ATWNrZg=
 github.com/dal-go/dalgo2firestore v0.1.53/go.mod h1:K6SUwQOuZbE8Ko272pLo7DVrRaysudIL43BIWAkVCBU=
+github.com/dal-go/dalgo2firestore v0.1.54 h1:nAtSHYqLYLhjPQsBYym1kM8V5uCQ2RT9XUByhQbaZw0=
+github.com/dal-go/dalgo2firestore v0.1.54/go.mod h1:9PucvAemSmqBs9EpiivNc1G77kfzyFg3qw8A8BVG+xM=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
@@ -215,6 +217,8 @@ github.com/sneat-co/sneat-go-core v0.23.0 h1:4/n3PGC8V6oRtoswwXqNwJUsBEY2cl1OIze
 github.com/sneat-co/sneat-go-core v0.23.0/go.mod h1:ijsI9IiaYQtqZEyp46FX0Q5u8j/61182sYRjYdsI+rM=
 github.com/sneat-co/sneat-go-core v0.23.1 h1:SEqI/P7YUuCX8DP7JybjJ0dLfRGQ2Bx7KdQCQN1wNNU=
 github.com/sneat-co/sneat-go-core v0.23.1/go.mod h1:2Sn4wo4uYgcGnqW/hmI6a1GFM3dmYQM5ttRYV7JJc3s=
+github.com/sneat-co/sneat-go-core v0.23.2 h1:T4LvVc5Lv/YNtCp8rah4BB631Oysxx+bO8RJm6HjAKc=
+github.com/sneat-co/sneat-go-core v0.23.2/go.mod h1:OvZm8NViiDNkF05wGLZKeNbyUIhc5ekQud5Vn3g5yyE=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/objx v0.4.0/go.mod h1:YvHI0jy2hoMjB+UWwv71VJQ9isScKT/TqJzVSSt89Yw=
 github.com/stretchr/objx v0.5.0/go.mod h1:Yh+to48EsGEfYuaHDzXPcE3xhTkx73EhmCGUpEOglKo=
@@ -236,6 +240,8 @@ github.com/strongo/strongoapp v0.9.1 h1:M3JqRZtqftTHGqnekW3ncNYYqLv2B1weye7yhPIG
 github.com/strongo/strongoapp v0.9.1/go.mod h1:UWRe4rYG7val1PRumvd+V1TbCHmckfHr3DQ+OzvYnqo=
 github.com/strongo/strongoapp v0.15.0 h1:QXaTjXmraScjUCs8+sSfMFCxTZv+6Mh8J06Ily2B3rk=
 github.com/strongo/strongoapp v0.15.0/go.mod h1:yMpsZiowjazIpPEKqieS9hbaaUyuyRPcFA948feBPPE=
+github.com/strongo/strongoapp v0.17.0 h1:UIQFkNdNLiM636SQrJS7VefxxidWjX88DGpLMfW8FZg=
+github.com/strongo/strongoapp v0.17.0/go.mod h1:yMpsZiowjazIpPEKqieS9hbaaUyuyRPcFA948feBPPE=
 github.com/strongo/validation v0.0.5 h1:O+eJM06v+rR+ZUua7kBi1JCK4a7JXMlkS7pmXkhxFJc=
 github.com/strongo/validation v0.0.5/go.mod h1:euQ9ywYwBASSnCLSYOx8JW0u4/71yfbeZhBQJv93dZg=
 github.com/strongo/validation v0.0.6 h1:RskXD45ILagVW3jmuKUiq7WshE4kmoQEiUbgfigqHzw=
