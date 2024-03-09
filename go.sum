@@ -125,6 +125,8 @@ github.com/dal-go/dalgo2firestore v0.1.54 h1:nAtSHYqLYLhjPQsBYym1kM8V5uCQ2RT9XUB
 github.com/dal-go/dalgo2firestore v0.1.54/go.mod h1:9PucvAemSmqBs9EpiivNc1G77kfzyFg3qw8A8BVG+xM=
 github.com/dal-go/dalgo2firestore v0.1.55 h1:GUfIpyFTKAWO7yg/Bnf78rD2H/0e8JaQ1P5KffQEp3Y=
 github.com/dal-go/dalgo2firestore v0.1.55/go.mod h1:v7Ri4J/fKrgQWdStCHslSJFtpF9CpvC8h2yEEYJ0wzg=
+github.com/dal-go/dalgo2firestore v0.1.56 h1:ytcwu01zXL1Dpk1HTvIfjnmFzmal6yc+q0LD0KeW3UM=
+github.com/dal-go/dalgo2firestore v0.1.56/go.mod h1:4oodBo/dKF85vMCcwSPm9KMi/3l6JOgy8k3cvXalNnY=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
@@ -466,6 +468,8 @@ google.golang.org/api v0.167.0 h1:CKHrQD1BLRii6xdkatBDXyKzM0mkawt2QP+H3LtPmSE=
 google.golang.org/api v0.167.0/go.mod h1:4FcBc686KFi7QI/U51/2GKKevfZMpM17sCdibqe/bSA=
 google.golang.org/api v0.168.0 h1:MBRe+Ki4mMN93jhDDbpuRLjRddooArz4FeSObvUMmjY=
 google.golang.org/api v0.168.0/go.mod h1:gpNOiMA2tZ4mf5R9Iwf4rK/Dcz0fbdIgWYWVoxmsyLg=
+google.golang.org/api v0.169.0 h1:QwWPy71FgMWqJN/l6jVlFHUa29a7dcUy02I8o799nPY=
+google.golang.org/api v0.169.0/go.mod h1:gpNOiMA2tZ4mf5R9Iwf4rK/Dcz0fbdIgWYWVoxmsyLg=
 google.golang.org/appengine v1.1.0/go.mod h1:EbEs0AVv82hx2wNQdGPgUI5lhzA/G0D9YwlJXL52JkM=
 google.golang.org/appengine v1.4.0/go.mod h1:xpcJRLb0r/rnEns0DIKYYv+WjYCduHsrkT7/EB5XEv4=
 google.golang.org/appengine v1.6.7 h1:FZR1q0exgwxzPzp/aF+VccGrSfxfPpkBqjIIEq3ru6c=
