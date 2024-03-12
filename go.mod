@@ -1,6 +1,6 @@
 module github.com/sneat-co/sneat-go-firebase
 
-go 1.22.0
+go 1.22.1
 
 //replace github.com/sneat-co/sneat-go-core => ../sneat-go-core
 
