@@ -6,9 +6,9 @@ go 1.22.2
 
 require (
 	cloud.google.com/go/firestore v1.15.0
-	firebase.google.com/go/v4 v4.13.0
+	firebase.google.com/go/v4 v4.14.0
 	github.com/dal-go/dalgo v0.12.1
-	github.com/dal-go/dalgo2firestore v0.1.58
+	github.com/dal-go/dalgo2firestore v0.1.59
 	github.com/sneat-co/sneat-go-core v0.23.3
 	github.com/stretchr/testify v1.9.0
 )
@@ -17,9 +17,9 @@ require (
 	cloud.google.com/go v0.112.1 // indirect
 	cloud.google.com/go/compute v1.24.0 // indirect
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
-	cloud.google.com/go/iam v1.1.6 // indirect
+	cloud.google.com/go/iam v1.1.7 // indirect
 	cloud.google.com/go/longrunning v0.5.5 // indirect
-	cloud.google.com/go/storage v1.38.0 // indirect
+	cloud.google.com/go/storage v1.40.0 // indirect
 	github.com/MicahParks/keyfunc v1.9.0 // indirect
 	github.com/alexsergivan/transliterator v1.0.0 // indirect
 	github.com/crediterra/money v0.2.1 // indirect
@@ -60,9 +60,9 @@ require (
 	google.golang.org/appengine v1.6.8 // indirect
 	google.golang.org/appengine/v2 v2.0.2 // indirect
 	google.golang.org/genproto v0.0.0-20240227224415-6ceb2ff114de // indirect
-	google.golang.org/genproto/googleapis/api v0.0.0-20240311132316-a219d84964c2 // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20240314234333-6e1732d8331c // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240318140521-94a12d6c2237 // indirect
-	google.golang.org/grpc v1.63.0 // indirect
+	google.golang.org/grpc v1.63.2 // indirect
 	google.golang.org/protobuf v1.33.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
