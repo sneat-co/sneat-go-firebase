@@ -9,7 +9,7 @@ require (
 	firebase.google.com/go/v4 v4.14.0
 	github.com/dal-go/dalgo v0.12.1
 	github.com/dal-go/dalgo2firestore v0.1.61
-	github.com/sneat-co/sneat-go-core v0.23.5
+	github.com/sneat-co/sneat-go-core v0.23.6
 	github.com/stretchr/testify v1.9.0
 )
 
@@ -24,7 +24,7 @@ require (
 	cloud.google.com/go/storage v1.40.0 // indirect
 	github.com/MicahParks/keyfunc v1.9.0 // indirect
 	github.com/alexsergivan/transliterator v1.0.0 // indirect
-	github.com/crediterra/money v0.2.1 // indirect
+	github.com/crediterra/money v0.2.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/go-logr/logr v1.4.1 // indirect
