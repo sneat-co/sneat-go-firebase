@@ -81,6 +81,8 @@ github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDk
 github.com/cncf/udpa/go v0.0.0-20191209042840-269d4d468f6f/go.mod h1:M8M6+tZqaGXZJjfX53e64911xZQV5JYwmTeXPW+k8Sc=
 github.com/crediterra/money v0.2.1 h1:VWe0gMQy/o9iDW84mLQnjM1TqyLRJ14C81VvaTU7jVg=
 github.com/crediterra/money v0.2.1/go.mod h1:0BT7dzPk4Wv+Wi8J6sxlFbCknYioLWVVQM4ciMJh6TI=
+github.com/crediterra/money v0.2.2 h1:DWFkW42bt6MpJkiH+M8ZlO4GaWW6IIEtrgRSRj8Fkzg=
+github.com/crediterra/money v0.2.2/go.mod h1:0BT7dzPk4Wv+Wi8J6sxlFbCknYioLWVVQM4ciMJh6TI=
 github.com/dal-go/dalgo v0.12.0 h1:giibzqo6mIkU06b0r4uKb3ZEa2agtj1qnL8RNa6sOBM=
 github.com/dal-go/dalgo v0.12.0/go.mod h1:741DXTLpQfmvkazyEiivX8OBFylpzS1QErdh/6WquqI=
 github.com/dal-go/dalgo v0.12.1 h1:3W95xOSC7CLgH3OQppNOWoIaMkon8GlQmgYxxO5qnvs=
@@ -265,6 +267,8 @@ github.com/sneat-co/sneat-go-core v0.23.4 h1:+S3GA850WbFDdPmz5FoIwP8R1//ZRLVaaOj
 github.com/sneat-co/sneat-go-core v0.23.4/go.mod h1:c8EESQ9CrsKaMtJ7D4daH7CeocL5kLHHxzrG9fPiCmg=
 github.com/sneat-co/sneat-go-core v0.23.5 h1:kZLFjm7jTNUhbdwaqy9lTQjP+20GtaN2IHjCA3o+MvA=
 github.com/sneat-co/sneat-go-core v0.23.5/go.mod h1:fmlaWKLDn4EMh44sU1C+PW32n4GQj32WILyolyV3PII=
+github.com/sneat-co/sneat-go-core v0.23.6 h1:tcMRxoMTxGhf7re0Z417+O4qA3I2Kk2EkpU4IQAK9XY=
+github.com/sneat-co/sneat-go-core v0.23.6/go.mod h1:0MJlBmIUYoisERyYxpk44znVSX3Eh4Cu4FDCBSSs5LE=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/objx v0.4.0/go.mod h1:YvHI0jy2hoMjB+UWwv71VJQ9isScKT/TqJzVSSt89Yw=
 github.com/stretchr/objx v0.5.0/go.mod h1:Yh+to48EsGEfYuaHDzXPcE3xhTkx73EhmCGUpEOglKo=
