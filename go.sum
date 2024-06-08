@@ -90,6 +90,7 @@ github.com/MicahParks/keyfunc v1.9.0 h1:lhKd5xrFHLNOWrDc4Tyb/Q1AJ4LCzQ48GVJyVIID
 github.com/MicahParks/keyfunc v1.9.0/go.mod h1:IdnCilugA0O/99dW+/MkvlyrsX8+L8+x95xuVNtM5jw=
 github.com/alexsergivan/transliterator v1.0.0 h1:SAA+fkGZKLnak47h8Dr6829IE2kpSZR2Y3yTd69cIwY=
 github.com/alexsergivan/transliterator v1.0.0/go.mod h1:0IrumukulURJ4PD0z6UcdJKP2job1DYDhnHAP5y+5pE=
+github.com/alexsergivan/transliterator v1.0.1/go.mod h1:0IrumukulURJ4PD0z6UcdJKP2job1DYDhnHAP5y+5pE=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
 github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDkc90ppPyw=
 github.com/cncf/udpa/go v0.0.0-20191209042840-269d4d468f6f/go.mod h1:M8M6+tZqaGXZJjfX53e64911xZQV5JYwmTeXPW+k8Sc=
@@ -295,6 +296,8 @@ github.com/sneat-co/sneat-go-core v0.23.6 h1:tcMRxoMTxGhf7re0Z417+O4qA3I2Kk2EkpU
 github.com/sneat-co/sneat-go-core v0.23.6/go.mod h1:0MJlBmIUYoisERyYxpk44znVSX3Eh4Cu4FDCBSSs5LE=
 github.com/sneat-co/sneat-go-core v0.24.0 h1:J/talvQiNxa4CI2GwBiV1E1AIlMf/2qhTTFK4uDw5wk=
 github.com/sneat-co/sneat-go-core v0.24.0/go.mod h1:0MJlBmIUYoisERyYxpk44znVSX3Eh4Cu4FDCBSSs5LE=
+github.com/sneat-co/sneat-go-core v0.24.1 h1:iZKFYsIcHysXt6tQ4GmaFY4VemfYRWeFH4v8dPY42X8=
+github.com/sneat-co/sneat-go-core v0.24.1/go.mod h1:MbnuZtB3ob5jcqnoNMUb7OlgaEFFHE6CoHoczrnCuJ0=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/objx v0.4.0/go.mod h1:YvHI0jy2hoMjB+UWwv71VJQ9isScKT/TqJzVSSt89Yw=
 github.com/stretchr/objx v0.5.0/go.mod h1:Yh+to48EsGEfYuaHDzXPcE3xhTkx73EhmCGUpEOglKo=
@@ -324,6 +327,8 @@ github.com/strongo/strongoapp v0.17.2 h1:UibJPfVmRIsKh5b6fyiUcpuPzyVuni1dGzMQrGS
 github.com/strongo/strongoapp v0.17.2/go.mod h1:jZNcBilTGETzYBUVOewWBIxvSUA+C/ctmIgDPPMol7Y=
 github.com/strongo/strongoapp v0.18.2 h1:L2HTDWOsrkO0OR5AQYGqpSSKQLzN9NUxiFS8b18WQd0=
 github.com/strongo/strongoapp v0.18.2/go.mod h1:jZNcBilTGETzYBUVOewWBIxvSUA+C/ctmIgDPPMol7Y=
+github.com/strongo/strongoapp v0.18.3 h1:5PAIvkkWe1Oxq5Ih05LSiyU7/fU3l+LroOhka7d8Co8=
+github.com/strongo/strongoapp v0.18.3/go.mod h1:jmfXybp7mwYoMRTW7BRM/HgEWTaWgUqmu14yQglBjNg=
 github.com/strongo/validation v0.0.5 h1:O+eJM06v+rR+ZUua7kBi1JCK4a7JXMlkS7pmXkhxFJc=
 github.com/strongo/validation v0.0.5/go.mod h1:euQ9ywYwBASSnCLSYOx8JW0u4/71yfbeZhBQJv93dZg=
 github.com/strongo/validation v0.0.6 h1:RskXD45ILagVW3jmuKUiq7WshE4kmoQEiUbgfigqHzw=
