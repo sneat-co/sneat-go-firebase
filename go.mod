@@ -1,6 +1,8 @@
 module github.com/sneat-co/sneat-go-firebase
 
-go 1.22.2
+go 1.22.3
+
+toolchain go1.22.4
 
 //replace github.com/sneat-co/sneat-go-core => ../sneat-go-core
 
@@ -9,7 +11,7 @@ require (
 	firebase.google.com/go/v4 v4.14.1
 	github.com/dal-go/dalgo v0.12.1
 	github.com/dal-go/dalgo2firestore v0.1.68
-	github.com/sneat-co/sneat-go-core v0.24.2
+	github.com/sneat-co/sneat-go-core v0.24.3
 	github.com/stretchr/testify v1.9.0
 )
 
@@ -41,6 +43,7 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/strongo/decimal v0.0.1 // indirect
 	github.com/strongo/log v0.3.0 // indirect
+	github.com/strongo/logus v0.0.0-20240628225821-04cf45b5968f // indirect
 	github.com/strongo/random v0.0.1 // indirect
 	github.com/strongo/slice v0.1.4 // indirect
 	github.com/strongo/strongoapp v0.18.3 // indirect
