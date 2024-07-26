@@ -10,7 +10,7 @@ require (
 	cloud.google.com/go/firestore v1.16.0
 	firebase.google.com/go/v4 v4.14.1
 	github.com/dal-go/dalgo v0.12.1
-	github.com/dal-go/dalgo2firestore v0.1.70
+	github.com/dal-go/dalgo2firestore v0.1.71
 	github.com/sneat-co/sneat-go-core v0.25.0
 	github.com/stretchr/testify v1.9.0
 )
