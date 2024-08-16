@@ -2,7 +2,7 @@ module github.com/sneat-co/sneat-go-firebase
 
 go 1.22.3
 
-toolchain go1.22.6
+toolchain go1.23.0
 
 //replace github.com/sneat-co/sneat-go-core => ../sneat-go-core
 
