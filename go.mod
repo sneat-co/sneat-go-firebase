@@ -1,17 +1,15 @@
 module github.com/sneat-co/sneat-go-firebase
 
-go 1.22.3
-
-toolchain go1.23.0
+go 1.23.0
 
 //replace github.com/sneat-co/sneat-go-core => ../sneat-go-core
 
 require (
 	cloud.google.com/go/firestore v1.16.0
 	firebase.google.com/go/v4 v4.14.1
-	github.com/dal-go/dalgo v0.12.1
+	github.com/dal-go/dalgo v0.12.2
 	github.com/dal-go/dalgo2firestore v0.1.72
-	github.com/sneat-co/sneat-go-core v0.31.1
+	github.com/sneat-co/sneat-go-core v0.31.5
 	github.com/stretchr/testify v1.9.0
 )
 
@@ -26,7 +24,7 @@ require (
 	cloud.google.com/go/storage v1.41.0 // indirect
 	github.com/MicahParks/keyfunc v1.9.0 // indirect
 	github.com/alexsergivan/transliterator v1.0.1 // indirect
-	github.com/crediterra/money v0.2.2 // indirect
+	github.com/crediterra/money v0.3.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
