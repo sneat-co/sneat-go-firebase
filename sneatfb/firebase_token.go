@@ -9,7 +9,6 @@ import (
 	"firebase.google.com/go/v4/auth"
 	"fmt"
 	"github.com/sneat-co/sneat-go-core/facade"
-	"log"
 )
 
 var firebaseTokenContextKey = "firebaseToken"
@@ -41,48 +40,52 @@ func NewContextWithFirebaseToken(ctx context.Context, token *auth.Token) context
 // NewFirebaseAuthToken creates Firebase authentication token
 var NewFirebaseAuthToken = newFirebaseAuthToken
 
+type TokenStrProvider func() (tokenStr string, err error)
+
 // NewFirebaseAuthToken creates a new Firebase Auth Token
-func newFirebaseAuthToken(ctx context.Context, fbIDToken func() (string, error), authRequired bool) (*auth.Token, error) {
+func newFirebaseAuthToken(ctx context.Context, getTokenStr TokenStrProvider, authRequired bool) (token *auth.Token, err error) {
 	if ctx == nil {
-		panic("NewFirebaseAuthToken(ctx=nil)")
+		panic("newFirebaseAuthToken(ctx=nil) - should be called with non nil context")
 	}
-	idToken, err := fbIDToken()
-	if err != nil {
-		return nil, fmt.Errorf("failed to get auth token: %w", err)
+
+	var tokenStr string
+	if tokenStr, err = getTokenStr(); err != nil {
+		return nil, fmt.Errorf("failed to get auth token string: %w", err)
 	}
-	fbApp, err := firebase.NewApp(ctx, nil)
-	if err != nil {
-		return nil, fmt.Errorf("failed to create new firebase app: %w", err)
-	}
-	if idToken == "" {
+
+	if tokenStr == "" {
 		if authRequired {
-			return nil, fmt.Errorf("%w: authentication is required but request is missing Firebase idToken", facade.ErrUnauthorized)
+			return nil, fmt.Errorf("%w: authentication is required but request is missing Firebase tokenStr", facade.ErrUnauthorized)
 		}
 		return nil, nil
 	}
-	fbAuth, err := fbApp.Auth(ctx)
-	if err != nil && authRequired {
-		return nil, fmt.Errorf("failed to create Firebase auth client: %w", err)
+
+	var fbApp *firebase.App
+	if fbApp, err = firebase.NewApp(ctx, nil); err != nil {
+		return nil, fmt.Errorf("failed to create *firebase.App: %w", err)
 	}
-	var token *auth.Token
-	token, err = verifyIDToken(ctx, fbAuth, idToken)
+
+	var fbAuthClient *auth.Client
+	if fbAuthClient, err = fbApp.Auth(ctx); err != nil {
+		return nil, fmt.Errorf("failed to create Firebase *auth.Client: %w", err)
+	}
+
 	//isDemoProject := strings.HasPrefix(googleCloudProjectID, "demo")
-	if err != nil {
-		const m = "failed to verify Firebase ContactID idToken: %v\nidToken: %v"
+	if token, err = verifyIDToken(ctx, fbAuthClient, tokenStr); err != nil {
 		if authRequired {
-			return token, fmt.Errorf(m, err, idToken)
+			return token, fmt.Errorf("failed to verify Firebase tokenStr: %v\ntokenStr: %s", err, tokenStr)
 		}
-		log.Printf(m, err, idToken)
 	}
+
 	if token == nil {
 		if authRequired {
-			return nil, errors.New("firebase.auth.Client.VerifyIDToken() returned nil error and nil idToken")
+			return nil, errors.New("firebase.auth.Client.VerifyIDToken() returned nil error and nil token")
 		}
 	} else if token.UID == "" {
 		if authRequired {
 			s := new(bytes.Buffer)
 			_ = json.NewEncoder(s).Encode(token)
-			return nil, fmt.Errorf("no UserID, decoded Token: %v\n\n encoded idToken: %v", s.String(), idToken)
+			return nil, fmt.Errorf("no UserID, decoded Token: %s\n\n encoded tokenStr: %s", s.String(), tokenStr)
 		}
 	}
 	return token, nil

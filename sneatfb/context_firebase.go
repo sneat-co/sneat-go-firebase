@@ -15,7 +15,7 @@ const authorizationHeaderName = "Authorization"
 const bearerPrefix = "Bearer"
 
 // getSneatAuthTokenFromHttpRequest creates a context with a Firebase ContactID token
-func getSneatAuthTokenFromHttpRequest(r *http.Request) (token *sneatauth.Token, err error) {
+func getSneatAuthTokenFromHttpRequest(r *http.Request, authRequired bool) (token *sneatauth.Token, err error) {
 	if r == nil {
 		panic("request is nil")
 	}
@@ -23,16 +23,17 @@ func getSneatAuthTokenFromHttpRequest(r *http.Request) (token *sneatauth.Token, 
 	if ctx == nil {
 		return nil, errors.New("request returned nil context")
 	}
-	authHeader := r.Header.Get(authorizationHeaderName)
-	if authHeader != "" {
-		bearerToken, err := getBearerToken(authHeader)
-		if err != nil {
+	if authHeader := r.Header.Get(authorizationHeaderName); authHeader != "" {
+		var bearerToken string
+		if bearerToken, err = getBearerToken(authHeader); err != nil {
 			return nil, fmt.Errorf("failed to get bearer token from authorization header: %w", err)
 		}
 		var fbToken *auth.Token
-		fbToken, err = NewFirebaseAuthToken(ctx, func() (string, error) {
+
+		getTokenStr := func() (string, error) {
 			return bearerToken, nil
-		}, false)
+		}
+		fbToken, err = NewFirebaseAuthToken(ctx, getTokenStr, authRequired)
 		if err != nil {
 			return nil, fmt.Errorf("failed to get Firebase auth toke: %w", err)
 		}
@@ -41,7 +42,7 @@ func getSneatAuthTokenFromHttpRequest(r *http.Request) (token *sneatauth.Token, 
 			Original: fbToken,
 		}
 	}
-	return token, err
+	return
 }
 
 // newAuthContext creates new authentication context
@@ -59,5 +60,6 @@ func getBearerToken(authorizationHeader string) (token string, err error) {
 	if !strings.HasPrefix(authorizationHeader, bearerPrefix) {
 		return "", httpserver.ErrNotABearerToken
 	}
-	return authorizationHeader[len(bearerPrefix)+1:], nil
+	token = authorizationHeader[len(bearerPrefix)+1:]
+	return strings.TrimSpace(token), nil
 }
