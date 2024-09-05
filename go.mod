@@ -1,15 +1,15 @@
 module github.com/sneat-co/sneat-go-firebase
 
-go 1.23.0
+go 1.22.3
 
 //replace github.com/sneat-co/sneat-go-core => ../sneat-go-core
 
 require (
 	cloud.google.com/go/firestore v1.16.0
 	firebase.google.com/go/v4 v4.14.1
-	github.com/dal-go/dalgo v0.13.0
-	github.com/dal-go/dalgo2firestore v0.2.2
-	github.com/sneat-co/sneat-go-core v0.32.6
+	github.com/dal-go/dalgo v0.13.1
+	github.com/dal-go/dalgo2firestore v0.2.3
+	github.com/sneat-co/sneat-go-core v0.32.8
 	github.com/stretchr/testify v1.9.0
 )
 
@@ -40,8 +40,8 @@ require (
 	github.com/strongo/logus v0.2.0 // indirect
 	github.com/strongo/random v0.0.1 // indirect
 	github.com/strongo/slice v0.2.0 // indirect
-	github.com/strongo/strongoapp v0.22.1 // indirect
-	github.com/strongo/validation v0.0.6 // indirect
+	github.com/strongo/strongoapp v0.24.3 // indirect
+	github.com/strongo/validation v0.0.7 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.54.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.54.0 // indirect
@@ -50,10 +50,10 @@ require (
 	go.opentelemetry.io/otel/trace v1.29.0 // indirect
 	golang.org/x/crypto v0.26.0 // indirect
 	golang.org/x/net v0.28.0 // indirect
-	golang.org/x/oauth2 v0.22.0 // indirect
+	golang.org/x/oauth2 v0.23.0 // indirect
 	golang.org/x/sync v0.8.0 // indirect
-	golang.org/x/sys v0.24.0 // indirect
-	golang.org/x/text v0.17.0 // indirect
+	golang.org/x/sys v0.25.0 // indirect
+	golang.org/x/text v0.18.0 // indirect
 	golang.org/x/time v0.6.0 // indirect
 	google.golang.org/api v0.196.0 // indirect
 	google.golang.org/appengine/v2 v2.0.6 // indirect
