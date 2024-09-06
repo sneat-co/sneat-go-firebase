@@ -50,10 +50,10 @@ func getSneatAuthTokenFromHttpRequest(r *http.Request, authRequired bool) (token
 
 // newAuthContext creates new authentication context
 //var newAuthContext = func(r *http.Request) (facade.AuthContext, error) {
-//	fbIDToken := func() (string, error) {
+//	getFirebaseIDToken := func() (string, error) {
 //		return getBearerToken(r.Header.Get(authorizationHeaderName))
 //	}
-//	return NewFirebaseAuthContext(fbIDToken), nil
+//	return NewFirebaseAuthContext(getFirebaseIDToken), nil
 //}
 
 func getBearerToken(authorizationHeader string) (token string, err error) {

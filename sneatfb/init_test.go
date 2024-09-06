@@ -1,6 +1,8 @@
 package sneatfb
 
 import (
+	"context"
+	"github.com/sneat-co/sneat-go-core/facade"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )
@@ -11,9 +13,10 @@ func TestInitFirebaseForSneat(t *testing.T) {
 			InitFirebaseForSneat("", "dbName")
 		})
 	})
-	t.Run("panic_on_empty_db_name", func(t *testing.T) {
-		assert.Panics(t, func() {
-			InitFirebaseForSneat("projectID", "")
-		})
+	t.Run("empty_dbName", func(t *testing.T) {
+		InitFirebaseForSneat("projectID", "")
+		db, err := facade.GetSneatDB(context.Background())
+		assert.Nil(t, err)
+		assert.Equal(t, "default", db.ID())
 	})
 }

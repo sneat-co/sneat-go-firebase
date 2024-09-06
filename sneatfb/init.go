@@ -15,17 +15,25 @@ func InitFirebaseForSneat(projectID, dbName string) {
 	if projectID == "" {
 		panic("projectID is empty")
 	}
-	if dbName == "" {
-		panic("dbName is empty")
-	}
 	apicore.GetAuthTokenFromHttpRequest = getSneatAuthTokenFromHttpRequest
 	sneatauth.GetUserInfo = GetUserInfo
 
-	facade.GetDatabase = func(ctx context.Context) (dal.DB, error) {
-		if client, err := firestore.NewClient(ctx, projectID); err != nil {
-			return nil, fmt.Errorf("failed to create Firestore client: %w", err)
+	facade.GetSneatDB = func(ctx context.Context) (db dal.DB, err error) {
+		var client *firestore.Client
+		if dbName == "" {
+			if client, err = firestore.NewClient(ctx, projectID); err != nil {
+				return nil, fmt.Errorf("failed to create Firestore client for default DB: %w", err)
+			}
 		} else {
-			return dalgo2firestore.NewDatabase(dbName, client), nil
+			if client, err = firestore.NewClient(ctx, projectID); err != nil {
+				return nil, fmt.Errorf("failed to create Firestore client for %s database: %w", dbName, err)
+			}
 		}
+
+		var dbID = dbName
+		if dbID == "" {
+			dbID = "default"
+		}
+		return dalgo2firestore.NewDatabase(dbID, client), nil
 	}
 }
