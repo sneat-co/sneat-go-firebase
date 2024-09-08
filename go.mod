@@ -9,7 +9,7 @@ require (
 	firebase.google.com/go/v4 v4.14.1
 	github.com/dal-go/dalgo v0.13.1
 	github.com/dal-go/dalgo2firestore v0.2.3
-	github.com/sneat-co/sneat-go-core v0.33.0
+	github.com/sneat-co/sneat-go-core v0.33.1
 	github.com/stretchr/testify v1.9.0
 )
 
