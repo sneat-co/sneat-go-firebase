@@ -5,7 +5,7 @@ go 1.22.3
 //replace github.com/sneat-co/sneat-go-core => ../sneat-go-core
 
 require (
-	cloud.google.com/go/firestore v1.16.0
+	cloud.google.com/go/firestore v1.17.0
 	firebase.google.com/go/v4 v4.14.1
 	github.com/dal-go/dalgo v0.13.1
 	github.com/dal-go/dalgo2firestore v0.2.3
