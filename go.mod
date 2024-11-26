@@ -9,9 +9,9 @@ toolchain go1.23.3
 require (
 	cloud.google.com/go/firestore v1.17.0
 	firebase.google.com/go/v4 v4.15.0
-	github.com/dal-go/dalgo v0.14.0
-	github.com/dal-go/dalgo2firestore v0.2.17
-	github.com/sneat-co/sneat-go-core v0.37.2
+	github.com/dal-go/dalgo v0.14.1
+	github.com/dal-go/dalgo2firestore v0.2.18
+	github.com/sneat-co/sneat-go-core v0.37.3
 	github.com/stretchr/testify v1.10.0
 )
 
@@ -44,8 +44,8 @@ require (
 	github.com/strongo/decimal v0.1.1 // indirect
 	github.com/strongo/logus v0.2.0 // indirect
 	github.com/strongo/random v0.0.1 // indirect
-	github.com/strongo/slice v0.3.0 // indirect
-	github.com/strongo/strongoapp v0.25.2 // indirect
+	github.com/strongo/slice v0.3.1 // indirect
+	github.com/strongo/strongoapp v0.25.3 // indirect
 	github.com/strongo/validation v0.0.7 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.55.0 // indirect
