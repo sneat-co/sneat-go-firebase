@@ -7,7 +7,7 @@ toolchain go1.23.4
 //replace github.com/sneat-co/sneat-go-core => ../sneat-go-core
 
 require (
-	cloud.google.com/go/firestore v1.17.0
+	cloud.google.com/go/firestore v1.18.0
 	firebase.google.com/go/v4 v4.15.1
 	github.com/dal-go/dalgo v0.14.1
 	github.com/dal-go/dalgo2firestore v0.2.21
@@ -16,7 +16,7 @@ require (
 )
 
 require (
-	cloud.google.com/go v0.116.0 // indirect
+	cloud.google.com/go v0.117.0 // indirect
 	cloud.google.com/go/auth v0.13.0 // indirect
 	cloud.google.com/go/auth/oauth2adapt v0.2.6 // indirect
 	cloud.google.com/go/compute/metadata v0.6.0 // indirect
