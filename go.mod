@@ -9,9 +9,9 @@ toolchain go1.23.4
 require (
 	cloud.google.com/go/firestore v1.18.0
 	firebase.google.com/go/v4 v4.15.1
-	github.com/dal-go/dalgo v0.14.1
-	github.com/dal-go/dalgo2firestore v0.2.23
-	github.com/sneat-co/sneat-go-core v0.37.4
+	github.com/dal-go/dalgo v0.14.2
+	github.com/dal-go/dalgo2firestore v0.2.25
+	github.com/sneat-co/sneat-go-core v0.41.1
 	github.com/stretchr/testify v1.10.0
 )
 
@@ -42,10 +42,10 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/rogpeppe/go-internal v1.13.1 // indirect
 	github.com/strongo/decimal v0.1.1 // indirect
-	github.com/strongo/logus v0.2.0 // indirect
+	github.com/strongo/logus v0.2.1 // indirect
 	github.com/strongo/random v0.0.1 // indirect
 	github.com/strongo/slice v0.3.1 // indirect
-	github.com/strongo/strongoapp v0.25.4 // indirect
+	github.com/strongo/strongoapp v0.25.5 // indirect
 	github.com/strongo/validation v0.0.7 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.55.0 // indirect
@@ -65,7 +65,7 @@ require (
 	google.golang.org/genproto v0.0.0-20241118233622-e639e219e697 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20241209162323-e6fa225c2576 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250102185135-69823020774d // indirect
-	google.golang.org/grpc v1.69.2 // indirect
+	google.golang.org/grpc v1.69.4 // indirect
 	google.golang.org/protobuf v1.36.1 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
