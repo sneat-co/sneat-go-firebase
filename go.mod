@@ -11,7 +11,7 @@ require (
 	firebase.google.com/go/v4 v4.15.1
 	github.com/dal-go/dalgo v0.14.2
 	github.com/dal-go/dalgo2firestore v0.2.26
-	github.com/sneat-co/sneat-go-core v0.41.1
+	github.com/sneat-co/sneat-go-core v0.42.0
 	github.com/stretchr/testify v1.10.0
 )
 
