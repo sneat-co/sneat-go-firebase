@@ -50,6 +50,8 @@ github.com/dal-go/dalgo2firestore v0.2.29 h1:onhjzwNrsIztOw6wGheorzQq6DXUGwABf9S
 github.com/dal-go/dalgo2firestore v0.2.29/go.mod h1:PKKfXfRvF4ET3PnKotBMRfjT7V/3ZVC/bP5f1joEkj4=
 github.com/dal-go/dalgo2firestore v0.2.33 h1:XhxE8ht2KVxF17gXE1c7037NpEegJB42ZaqtPTEOu20=
 github.com/dal-go/dalgo2firestore v0.2.33/go.mod h1:/n/WRASroCHolRAcvV6J/nB2p0FbCANbLozko56meQA=
+github.com/dal-go/dalgo2firestore v0.2.34 h1:MLP/NGtI5Fy51oZuSvkVsIg4YUYJN7ZQK7W2skAu2AU=
+github.com/dal-go/dalgo2firestore v0.2.34/go.mod h1:FETe9rbrfWaqgHs3E/0xAha0Jqfo4BW6e/pF7Yapgec=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
@@ -103,6 +105,8 @@ github.com/sneat-co/sneat-go-core v0.45.0 h1:oozl/4C1iBLlSJj5yaDFU8M3uoTR+utRiuh
 github.com/sneat-co/sneat-go-core v0.45.0/go.mod h1:pDLlPtg0h12jk04+61nkFKuaqDlNHXqjX4lBZF0B4/g=
 github.com/sneat-co/sneat-go-core v0.45.1 h1:I1JiYbxwiMhZZXXO4HyGyfScIMQ0iDEC3jWZ8MvMLfo=
 github.com/sneat-co/sneat-go-core v0.45.1/go.mod h1:hwbgUSd4u4gTzy2SpYLKptiQRxD8Wo4QhpjCC9iS9F0=
+github.com/sneat-co/sneat-go-core v0.45.2 h1:lwuZjF/H1cJw18FM4SRSeWdNHm9JSdOSgbNHvc34d/c=
+github.com/sneat-co/sneat-go-core v0.45.2/go.mod h1:V0G/MtCsKYZ4+AVqdOLrjI8P5xmWH68/W/GHR7srRr0=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.5.1/go.mod h1:5W2xD1RspED5o8YsWQXVCued0rvSQ+mT+I5cxcmMvtA=
 github.com/stretchr/testify v1.10.0 h1:Xv5erBjTwe/5IxqUQTdXv5kgmIvbHo3QQyRwhJsOfJA=
@@ -119,6 +123,8 @@ github.com/strongo/strongoapp v0.25.7 h1:QvEJ4GWv9tQMdk2oyACLCUcUWGKyA4deMfZh5K4
 github.com/strongo/strongoapp v0.25.7/go.mod h1:jCdLBw1iXnG0mMu9RxET2lIfriBO4Q1qdNEbX8sAAkE=
 github.com/strongo/strongoapp v0.25.8 h1:H1LszWEGJjeD6tYkXwDYOaLIrc8TLOepsdKxiNPb4hs=
 github.com/strongo/strongoapp v0.25.8/go.mod h1:jCdLBw1iXnG0mMu9RxET2lIfriBO4Q1qdNEbX8sAAkE=
+github.com/strongo/strongoapp v0.26.1 h1:epeqRbW2ynTY0F+3eATO/1XYlhKLyXaHCElvi+5PJIs=
+github.com/strongo/strongoapp v0.26.1/go.mod h1:N7kE2B74xwn0F7FWMwpy6piD+E9iVG6cSV/o1L/8Cfk=
 github.com/strongo/validation v0.0.7 h1:gs6YkwPsYtVsepQaQOB+ZF+T0Gu5+nk4ZMND8F85e+U=
 github.com/strongo/validation v0.0.7/go.mod h1:YUwoPEItLJd/Bc9X1OCUm03ofhvm3kwZvuihU7/jz58=
 github.com/yuin/goldmark v1.4.13/go.mod h1:6yULJ656Px+3vBD8DxQVa3kxgyrAnzto9xy5taEt/CY=
