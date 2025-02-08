@@ -52,6 +52,8 @@ github.com/dal-go/dalgo2firestore v0.2.33 h1:XhxE8ht2KVxF17gXE1c7037NpEegJB42Zaq
 github.com/dal-go/dalgo2firestore v0.2.33/go.mod h1:/n/WRASroCHolRAcvV6J/nB2p0FbCANbLozko56meQA=
 github.com/dal-go/dalgo2firestore v0.3.0 h1:x5GMHMXEjsNR3cj9qx3+Oe/M+mUrhaxS3E6GOKSB10E=
 github.com/dal-go/dalgo2firestore v0.3.0/go.mod h1:4Sq/nLeZXfKpz/NnZx3Uw3vIjubuFCqGi+xF5imBxB8=
+github.com/dal-go/dalgo2firestore v0.3.1 h1:js5wgYtm6oc5SlVFT30Wq8t0s/ASH36BmlBrjIIpPLI=
+github.com/dal-go/dalgo2firestore v0.3.1/go.mod h1:HeMREBipFo1WI6x1B9xUw9q1Mn9m7X7B7ZsOsoDx+qM=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
@@ -196,6 +198,8 @@ golang.org/x/xerrors v0.0.0-20190717185122-a985d3407aa7/go.mod h1:I/5z698sn9Ka8T
 golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543/go.mod h1:I/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=
 google.golang.org/api v0.219.0 h1:nnKIvxKs/06jWawp2liznTBnMRQBEPpGo7I+oEypTX0=
 google.golang.org/api v0.219.0/go.mod h1:K6OmjGm+NtLrIkHxv1U3a0qIf/0JOvAHd5O/6AoyKYE=
+google.golang.org/api v0.220.0 h1:3oMI4gdBgB72WFVwE1nerDD8W3HUOS4kypK6rRLbGns=
+google.golang.org/api v0.220.0/go.mod h1:26ZAlY6aN/8WgpCzjPNy18QpYaz7Zgg1h0qe1GkZEmY=
 google.golang.org/appengine/v2 v2.0.6 h1:LvPZLGuchSBslPBp+LAhihBeGSiRh1myRoYK4NtuBIw=
 google.golang.org/appengine/v2 v2.0.6/go.mod h1:WoEXGoXNfa0mLvaH5sV3ZSGXwVmy8yf7Z1JKf3J3wLI=
 google.golang.org/genproto v0.0.0-20250127172529-29210b9bc287 h1:WoUI1G0DQ648FKvSl756SKxHQR/bI+y4HyyIQfxMWI8=
