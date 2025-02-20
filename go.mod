@@ -7,15 +7,15 @@ go 1.22.7
 require (
 	cloud.google.com/go/firestore v1.18.0
 	firebase.google.com/go/v4 v4.15.2
-	github.com/dal-go/dalgo v0.16.1
-	github.com/dal-go/dalgo2firestore v0.3.2
-	github.com/sneat-co/sneat-go-core v0.45.6
+	github.com/dal-go/dalgo v0.18.0
+	github.com/dal-go/dalgo2firestore v0.3.6
+	github.com/sneat-co/sneat-go-core v0.45.7
 	github.com/stretchr/testify v1.10.0
 )
 
 require (
 	cel.dev/expr v0.19.2 // indirect
-	cloud.google.com/go v0.118.1 // indirect
+	cloud.google.com/go v0.118.2 // indirect
 	cloud.google.com/go/auth v0.14.1 // indirect
 	cloud.google.com/go/auth/oauth2adapt v0.2.7 // indirect
 	cloud.google.com/go/compute/metadata v0.6.0 // indirect
@@ -50,7 +50,7 @@ require (
 	github.com/strongo/logus v0.2.1 // indirect
 	github.com/strongo/random v0.0.1 // indirect
 	github.com/strongo/slice v0.3.1 // indirect
-	github.com/strongo/strongoapp v0.26.1 // indirect
+	github.com/strongo/strongoapp v0.26.2 // indirect
 	github.com/strongo/validation v0.0.7 // indirect
 	go.opentelemetry.io/auto/sdk v1.1.0 // indirect
 	go.opentelemetry.io/contrib/detectors/gcp v1.34.0 // indirect
@@ -70,9 +70,9 @@ require (
 	golang.org/x/time v0.10.0 // indirect
 	google.golang.org/api v0.221.0 // indirect
 	google.golang.org/appengine/v2 v2.0.6 // indirect
-	google.golang.org/genproto v0.0.0-20250127172529-29210b9bc287 // indirect
-	google.golang.org/genproto/googleapis/api v0.0.0-20250127172529-29210b9bc287 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20250207221924-e9438ea467c6 // indirect
+	google.golang.org/genproto v0.0.0-20250212204824-5a70512c5d8b // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20250212204824-5a70512c5d8b // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20250212204824-5a70512c5d8b // indirect
 	google.golang.org/grpc v1.70.0 // indirect
 	google.golang.org/protobuf v1.36.5 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
