@@ -9,9 +9,9 @@ toolchain go1.24.0
 require (
 	cloud.google.com/go/firestore v1.18.0
 	firebase.google.com/go/v4 v4.15.2
-	github.com/dal-go/dalgo v0.18.0
+	github.com/dal-go/dalgo v0.18.1
 	github.com/dal-go/dalgo2firestore v0.3.7
-	github.com/sneat-co/sneat-go-core v0.45.7
+	github.com/sneat-co/sneat-go-core v0.46.1
 	github.com/stretchr/testify v1.10.0
 )
 
