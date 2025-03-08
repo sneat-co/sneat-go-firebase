@@ -10,8 +10,8 @@ require (
 	cloud.google.com/go/firestore v1.18.0
 	firebase.google.com/go/v4 v4.15.2
 	github.com/dal-go/dalgo v0.18.1
-	github.com/dal-go/dalgo2firestore v0.3.9
-	github.com/sneat-co/sneat-go-core v0.47.4
+	github.com/dal-go/dalgo2firestore v0.3.11
+	github.com/sneat-co/sneat-go-core v0.47.6
 	github.com/stretchr/testify v1.10.0
 )
 
@@ -70,7 +70,7 @@ require (
 	golang.org/x/sys v0.31.0 // indirect
 	golang.org/x/text v0.23.0 // indirect
 	golang.org/x/time v0.11.0 // indirect
-	google.golang.org/api v0.223.0 // indirect
+	google.golang.org/api v0.224.0 // indirect
 	google.golang.org/appengine/v2 v2.0.6 // indirect
 	google.golang.org/genproto v0.0.0-20250303144028-a0af3efb3deb // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20250303144028-a0af3efb3deb // indirect
