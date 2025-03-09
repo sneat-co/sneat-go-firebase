@@ -87,6 +87,8 @@ github.com/dal-go/dalgo2firestore v0.3.7 h1:FoV83fWRx+gZkuzp2PqihJAOUsXvnysUY/XI
 github.com/dal-go/dalgo2firestore v0.3.7/go.mod h1:OpZAt1uC5lmB7dnSXeBhEL3PoxY4M1WVH/0diRaBMvI=
 github.com/dal-go/dalgo2firestore v0.3.9 h1:HKFUZKFh8Kn1f9UowJ0p9ckreSMqQlmmc6TN5r0kK0I=
 github.com/dal-go/dalgo2firestore v0.3.9/go.mod h1:azxzDrac1Iy+4z01vcPKc6HZagTL5KkzQW24wp/On5M=
+github.com/dal-go/dalgo2firestore v0.3.11 h1:U1RbHZQ3TKz4g6LYknrAvvwR0pHnLUxqOHhVL6V9o/I=
+github.com/dal-go/dalgo2firestore v0.3.11/go.mod h1:N9oCIXqrE9Rkz3A2THwqg88mqDc76V+cNQza3tJy9Z8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
@@ -156,6 +158,8 @@ github.com/sneat-co/sneat-go-core v0.47.1 h1:XVo4ZCaaq8+kp3DVeQq6p1HmfXx6g92s4Q/
 github.com/sneat-co/sneat-go-core v0.47.1/go.mod h1:rcL7EHsJtLqHQvdUvID4FTxlQurIXoW3tsdBQqJJv0o=
 github.com/sneat-co/sneat-go-core v0.47.4 h1:RiIpkVxiigz1BZHSTn4zlWaSZsYX/LW48yVD/0p9dtk=
 github.com/sneat-co/sneat-go-core v0.47.4/go.mod h1:fV2FZseHW6KSrm3zCUQGL0I5pcb+45t5xZtQW+nuAWQ=
+github.com/sneat-co/sneat-go-core v0.47.6 h1:NcRcBPvKwznfTylGZGUZ89wONSzjWPA4ewzyugugS54=
+github.com/sneat-co/sneat-go-core v0.47.6/go.mod h1:tWZVQfd/wl01ogDkhfjKY6hPK8uo/ihv2jlnjuYVlhY=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.5.1/go.mod h1:5W2xD1RspED5o8YsWQXVCued0rvSQ+mT+I5cxcmMvtA=
 github.com/stretchr/testify v1.10.0 h1:Xv5erBjTwe/5IxqUQTdXv5kgmIvbHo3QQyRwhJsOfJA=
@@ -299,6 +303,8 @@ google.golang.org/api v0.222.0 h1:Aiewy7BKLCuq6cUCeOUrsAlzjXPqBkEeQ/iwGHVQa/4=
 google.golang.org/api v0.222.0/go.mod h1:efZia3nXpWELrwMlN5vyQrD4GmJN1Vw0x68Et3r+a9c=
 google.golang.org/api v0.223.0 h1:JUTaWEriXmEy5AhvdMgksGGPEFsYfUKaPEYXd4c3Wvc=
 google.golang.org/api v0.223.0/go.mod h1:C+RS7Z+dDwds2b+zoAk5hN/eSfsiCn0UDrYof/M4d2M=
+google.golang.org/api v0.224.0 h1:Ir4UPtDsNiwIOHdExr3fAj4xZ42QjK7uQte3lORLJwU=
+google.golang.org/api v0.224.0/go.mod h1:3V39my2xAGkodXy0vEqcEtkqgw2GtrFL5WuBZlCTCOQ=
 google.golang.org/appengine v1.6.8 h1:IhEN5q69dyKagZPYMSdIjS2HqprW324FRQZJcGqPAsM=
 google.golang.org/appengine/v2 v2.0.6 h1:LvPZLGuchSBslPBp+LAhihBeGSiRh1myRoYK4NtuBIw=
 google.golang.org/appengine/v2 v2.0.6/go.mod h1:WoEXGoXNfa0mLvaH5sV3ZSGXwVmy8yf7Z1JKf3J3wLI=
