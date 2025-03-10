@@ -23,7 +23,7 @@ func (v *firebaseAuthContext) User(ctx context.Context, authRequired bool) (user
 	if fbAuthToken, err = v.getFbAuthToken(ctx, authRequired); err != nil {
 		return v.userCtx, v.err
 	}
-	v.userCtx = facade.AuthUserContext{ID: fbAuthToken.UID}
+	v.userCtx = facade.NewContextWithUser(ctx, fbAuthToken.UID).User()
 	return v.userCtx, nil
 }
 

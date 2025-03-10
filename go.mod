@@ -11,7 +11,7 @@ require (
 	firebase.google.com/go/v4 v4.15.2
 	github.com/dal-go/dalgo v0.18.1
 	github.com/dal-go/dalgo2firestore v0.3.11
-	github.com/sneat-co/sneat-go-core v0.47.6
+	github.com/sneat-co/sneat-go-core v0.48.0
 	github.com/stretchr/testify v1.10.0
 )
 
@@ -21,8 +21,8 @@ require (
 	cloud.google.com/go/auth v0.15.0 // indirect
 	cloud.google.com/go/auth/oauth2adapt v0.2.7 // indirect
 	cloud.google.com/go/compute/metadata v0.6.0 // indirect
-	cloud.google.com/go/iam v1.4.0 // indirect
-	cloud.google.com/go/longrunning v0.6.4 // indirect
+	cloud.google.com/go/iam v1.4.1 // indirect
+	cloud.google.com/go/longrunning v0.6.5 // indirect
 	cloud.google.com/go/monitoring v1.24.0 // indirect
 	cloud.google.com/go/storage v1.50.0 // indirect
 	github.com/GoogleCloudPlatform/opentelemetry-operations-go/detectors/gcp v1.27.0 // indirect
@@ -46,7 +46,7 @@ require (
 	github.com/googleapis/enterprise-certificate-proxy v0.3.5 // indirect
 	github.com/googleapis/gax-go/v2 v2.14.1 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/planetscale/vtprotobuf v0.6.1-0.20240319094008-0393e58bdf10 // indirect
+	github.com/planetscale/vtprotobuf v0.6.1-0.20241121165744-79df5c4772f2 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/strongo/decimal v0.1.1 // indirect
 	github.com/strongo/logus v0.2.1 // indirect
